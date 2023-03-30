@@ -1,0 +1,86 @@
+*{
+    background-color: bisque;
+}
+section{
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    top: 90px;
+    border: 2px solid black;
+    display: block;
+}
+
+.foto{
+    width: 200px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid orange;
+}
+
+.name{
+    text-align: center;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.degree{
+    text-align: center;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    padding-top: 35px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+a{
+    padding: 6px;
+    height: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: cursive;
+    border-radius: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.whatsapp{
+    background-color: green;
+}
+.whatsapp:hover{
+    background-color: rgb(43, 146, 9);
+    position: relative;
+    bottom: 5px;
+}
+
+.facebook{
+    background-color: rgb(0, 89, 255);
+}
+.facebook:hover{
+    background-color: rgb(40, 116, 231);
+    position: relative;
+    bottom: 5px;
+}
+
+.instagram{
+    background-color: rgb(126, 0, 128);
+}
+.instagram:hover{
+    background-color: rgb(179, 36, 119);
+    position: relative;
+    bottom: 5px;
+}
+
+.onlyFans{
+    background-color: rgb(0, 162, 255);
+}
+.onlyFans:hover{
+    background-color: rgb(40, 202, 231);
+    position: relative;
+    bottom: 5px;
+}
